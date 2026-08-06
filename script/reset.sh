@@ -22,6 +22,6 @@ git reflog expire --expire=all --all
 git gc --prune=all
 
 chmod -R 777 ~/server/
-rm -rf ~/server/*
+rm -rf ~/server/
 cp -Tr ~/server-default/ ~/server/
 
